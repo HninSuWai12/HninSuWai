@@ -1,0 +1,37 @@
+.contact {
+    border: 1px solid var(--inner-color);
+    height: 50rem;
+    background-color: var(--inner-color);
+    margin-bottom: 0;
+}
+
+.contact h1 {
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact p {
+    width: 50%;
+    margin-left: 40rem;
+}
+
+.contact .dot {
+    height: 45px;
+    width: 45px;
+    background-color: var(--button-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.contact .btn {
+    padding: 15px 50px;
+    background-color: var(--button-color);
+    color: #fff;
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: var(--inner-color);
+    height: 10rem;
+}

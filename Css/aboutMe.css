@@ -1,0 +1,22 @@
+.aboutMe h2 {
+    color: var(--button-color);
+    font-weight: bold;
+}
+
+.aboutMe-btn {
+    padding: 10px 25px;
+    background-color: var(--button-color);
+    border: 2px solid var(--button-color);
+    margin-top: 2rem;
+}
+
+.aboutMe .pieces {
+    display: flex;
+    gap: 5rem;
+}
+
+.aboutMe .pieces span,
+a {
+    color: var(--button-color);
+    font-weight: 500;
+}

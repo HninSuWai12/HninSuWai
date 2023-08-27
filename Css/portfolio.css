@@ -1,0 +1,35 @@
+.portfolio {
+    margin-left: 35rem;
+}
+
+.portfolio .first-portfolio h1 {
+    color: var(--button-color);
+    font-weight: bold;
+    text-align: center;
+}
+
+.portfolio button {
+    padding: 10px 45px;
+    border: var(--button-color);
+    border-radius: 15px;
+    margin-left: 3rem;
+}
+
+.portfolio .avaliable ul {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.portfolio .avaliable ul .first {
+    background-color: var(--button-color);
+}
+
+.portfolio .second-portfoilo {
+    display: flex;
+    flex-grow: 2;
+    gap: 3rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,70 @@
+.header {
+    background-color: var(--headerDiv-color);
+}
+
+.nav {
+    background-color: var(--headerDiv-color);
+    position: sticky;
+    top: 0;
+    margin-bottom: 0;
+    height: 5rem;
+}
+
+.nav ul {
+    display: flex;
+    gap: 3rem;
+    font-size: var(--secondary-title-text);
+}
+
+.nav ul li a {
+    font-weight: bold;
+}
+
+.nav .icon i {
+    color: var(--button-color);
+    font-size: 2rem;
+}
+
+.nav span {
+    color: var(--button-color);
+    font-weight: bold;
+}
+
+
+/*About Section*/
+
+.about .left {
+    margin-top: 6rem;
+}
+
+.about .left h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+.about .left h1 {
+    color: var(--button-color);
+    margin-top: 2rem;
+}
+
+.about .left p {
+    margin-top: 3rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.about .left .about-button {
+    margin-top: 4rem;
+}
+
+.about .left button {
+    background-color: var(--button-color);
+    padding: 10px 25px;
+    border: var(--button-color);
+}
+
+.about .left span a {
+    color: var(--button-color);
+    font-size: 3rem;
+}

@@ -1,0 +1,13 @@
+.work {
+    display: flex;
+    flex-grow: 1;
+    gap: 3rem;
+}
+
+.work .work-right .dot {
+    height: 45px;
+    width: 45px;
+    background-color: var(--icon-color);
+    border-radius: 50%;
+    display: inline-block;
+}

@@ -1,0 +1,36 @@
+.third {
+    background: url(../Portfolio/Rectangle\ 14.jpg) no-repeat center;
+    background-size: cover;
+    height: 60rem;
+}
+
+.third .third-one {
+    margin-right: 4rem;
+}
+
+.third .third-one,
+.third-two {
+    margin-top: 9rem;
+}
+
+.third .third-one h1 {
+    color: var(--button-color);
+    font-weight: bold;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+.third .amount {
+    margin-left: 15rem;
+}
+
+.third .skill-bar {
+    height: 1rem;
+    background-color: var(--inner-color);
+    border-radius: 50px;
+}
+
+.third .progress-bar {
+    height: 100%;
+    background-color: var(--button-color);
+}
